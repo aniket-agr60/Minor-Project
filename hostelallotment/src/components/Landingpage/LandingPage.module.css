@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #032331de;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  backdrop-filter: blur(5px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 2rem;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 4rem;
+}
+
+.notification {
+  display: inline;
+  margin-left: 6rem;
+  margin-right: -2rem;
+}
+
+svg {
+  display: inline;
+  vertical-align: middle;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 400;
+}
+.dispname {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline;
+  border-left: 1px solid white;
+  font-weight: 600;
+  margin-left: -79px;
+  padding: 8px;
+}
+.nav-links li a:hover {
+  opacity: 0.5;
+}
+.signup-button {
+  margin-left: 0.5rem;
+}
+@keyframes backgroundSlide {
+  0%,
+  33.33% {
+    background-image: url("hostel1.jpg");
+  }
+  33.34%,
+  66.66% {
+    background-image: url("hostel4.jpeg");
+  }
+  66.67%,
+  100% {
+    background-image: url("hostel2.jpg");
+  }
+}
+
+.hero {
+  color: black;
+  background-color: #ded0d0;
+  height: 40rem;
+  text-align: center;
+  animation: backgroundSlide 15s linear infinite;
+  background-size: cover;
+  background-position: center;
+}
+.fnt {
+  color: #8b0ac6;
+}
+.about {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.about1 {
+  background-color: #e8d0f3;
+  padding: 10px 0;
+}
+.footer {
+  background-color: #001a34;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.attendance {
+display: flex;
+justify-content: space-around;
+  background-color: #e2adfa;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.addhostel {
+  background-color: #e8d0f3;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 12rem;
+  font-size: 1.2rem;
+}
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #189ab4;
+  width: 100%;
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0.5em;
+}
+.dropdownitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 2px;
+  font-size: 1rem;
+}
+.dropdownitems:hover {
+  background-color: rgba(247, 245, 245, 0.311);
+  border-radius: 1rem;
+}
+.dropdownitems:active {
+  background-color: rgba(144, 142, 142, 0.863);
+}
+.dropdownContent p {
+  font-size: 1rem;
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #460239;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #189ab4;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3rem;
+  transition: background-color 0.3s ease;
+  text-size-adjust: 1.7rem;
+  cursor: pointer;
+}
+.btnlearn {
+  display: inline-block;
+  background-color: #fff;
+  color: #189ab4;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+.btnlearn:hover {
+  scale: 1.1;
+}
+
+.container {
+  padding: 40px 0;
+}
+
+.containerabout {
+  padding: 2rem;
+  background-color: white;
+}
+.container1 {
+  padding: 180px 0;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: #0808087a;
+  color: white;
+}
+.container1 h1 {
+  font-size: 3.7rem;
+  font-weight: 900;
+}
+.container1 h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+/* .temp{
+  width: 50%;
+  margin-left: 24rem;
+} */
+.container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.container p {
+  font-size: 18px;
+  color: #666;
+}
+/* Styling for the 'about' section */
+.about {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #001a34;
+}
+
+.about button {
+  background-color: #189ab4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about button:hover {
+  background-color: #555;
+}
+
+.circulars {
+  background-color: #001a34f5;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  max-height: fit-content;
+}
+
+.circulars h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.circulars p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Styling for the 'about1' section */
+.about1 {
+  background-color: #646464f5;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  border: 2px solid #001a34; /* Border for each section */
+overflow-y: auto;
+}
+
+.about1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #001a34;
+  margin-bottom: 20px;
+}
+
+.about1 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #001a34;
+}
+.about1::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar */
+}
+.circulars::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar */
+}
+/* CSS */
+.container-wrapper {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+margin-top: -1rem;
+}
+
+.circulars,
+.about1 {
+  width: 50%;
+ height: 40rem;
+overflow-y: auto; 
+scroll-behavior: smooth;
+}
+
+.circularitems {
+  padding: 0.5rem;
+  border: 1px solid #189ab4;
+  border-radius: 2rem;
+}
+.circularitems:hover {
+ background-color: #189ab4;
+color: #001a34;
+transition: 100ms linear;
+}
+
+.about1items{
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+background-color: #001a34;
+color: white;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(99%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Apply the animation to the content */
+.container {
+  animation: moveUp 9s linear infinite; /* Adjust duration (20s in this example) as needed */
+overflow: hidden;
+}
+.containerabout1 {
+  animation: scrl 40s linear infinite; /* Adjust duration (20s in this example) as needed */
+overflow: hidden;
+
+}

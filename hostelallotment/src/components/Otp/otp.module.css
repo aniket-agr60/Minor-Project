@@ -1,0 +1,22 @@
+.otph{
+margin-top: 35vh;
+}
+
+.otp-button{
+ display: inline-block;
+  background-color: #032331de;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3rem;
+  transition: background-color 0.3s ease;
+  text-size-adjust: 1.7rem;
+  cursor: pointer;
+}
+.otp-button:hover {
+  background-color: #555;
+}
+
+.inputotp{
+border: 1px solid black;
+}
